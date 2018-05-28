@@ -27,5 +27,3 @@ fields:
   type: text
   hidden: false
   default: ''
-pages:
-- _posts/2018-05-28-.md
