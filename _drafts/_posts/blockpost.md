@@ -2,7 +2,9 @@
 title: "БЛОКПОСТ"
 date: 2018-05-28 00:00:00 +0000
 layout: post
-categories: []
+categories:
+- "РЭП-ОПЕРА"
+permalink: "/anarchopovest/:title.html"
 ---
 Рэп-пьеса в трех актах  
 
