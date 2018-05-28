@@ -28,4 +28,4 @@ fields:
   hidden: false
   default: ''
 pages:
-- _posts/.md
+- _posts/2018-05-28-.md
