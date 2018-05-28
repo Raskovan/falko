@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Расследования" }}</h2>
+    {% assign sorted_cats = site.categories | sort %}
+    {%- for category in sorted_cats -%}
+      <ul class="post-list">
+        <span class="post-meta">{{ category | first }}</span>
+          {%- for posts in category -%}
+          {% assign sorted_posts = posts | reverse %}
+            {% for post in sorted_posts %}
+              <li>
+                <h3>
+                  <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                  </a>
+                </h3>
+              </li>
+            {% endfor %}
+          {%- endfor -%}
+        </ul>
+      {%- endfor -%}
+
+  {%- endif -%}
+
+</div>
