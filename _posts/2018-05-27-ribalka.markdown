@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Рыбалка"
-date:   2018-05-27 18:31:15 -0400
-categories: АНАРХО-ПЬЕСА
-permalink: /:categories/:title.html
+title: "Рыбалка"
+date: 2018-05-27 22:31:15 +0000
+categories: "АНАРХО-ПЬЕСА"
+permalink: "/:categories/:title.html"
 ---
 <i>По материалам коллекции самодельных вещей Владимира Архипова</i>
 
