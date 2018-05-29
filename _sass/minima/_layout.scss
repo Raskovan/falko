@@ -200,11 +200,13 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+  margin-top: 12px;
 }
 
 .post-link {
   display: block;
   @include relative-font-size(1.5);
+  line-height: 1.5;
 }
 
 
@@ -224,6 +226,11 @@
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
   }
+}
+
+.post-new {
+  color: red;
+  font-size: 12px;
 }
 
 .post-content {
