@@ -2,7 +2,9 @@
 layout: post
 title: "Дать пизды"
 date: 2018-05-27 22:31:15 +0000
-categories: "АНТИФА-КНИГА"
+categories:
+categories: "Расследования"
+tags: [СТАТЬИ И ИНТЕРВЬЮ]
 permalink: "/:categories/:title.html"
 ---
 

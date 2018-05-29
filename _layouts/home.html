@@ -10,18 +10,35 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Расследования" }}</h2>
+    <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Расследования" }}</h2> -->
     {% assign sorted_cats = site.categories | sort %}
     {%- for category in sorted_cats -%}
       <ul class="post-list">
-        <span class="post-meta">{{ category | first }}</span>
+        <h2 class="post-list-heading">{{ category | first }}</h2>
+
+
+        <!-- {% for posts in site.categories.category %}
+          {{ tags |  first }}
+        {% endfor %} -->
+
+
+
+
+
+
           {%- for posts in category -%}
           {% assign sorted_posts = posts | reverse %}
             {% for post in sorted_posts %}
+            <span class="post-meta">{{ post.tags | first }}</span>
               <li>
                 <h3>
                   <a class="post-link" href="{{ post.url | relative_url }}">
                     {{ post.title | escape }}
+
+                    {% assign post_in_seconds = post.date | date: "%s" %}
+                    {% assign today_in_seconds = site.time | date: "%s" %}
+                    {% assign past_in_seconds = today_in_seconds | minus: post_in_seconds %}
+                    {% if past_in_seconds < 2678400 %}<sup>new</sup>{% endif%}
                   </a>
                 </h3>
               </li>
