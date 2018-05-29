@@ -4,7 +4,7 @@ title: "Рыбалка"
 date: 2018-05-27 22:31:15 +0000
 categories: "Расследования"
 tags: "АНАРХО-ПЬЕСА"
-permalink: "/:categories/:title.html"
+permalink: "/rassledovaniya/:title.html"
 ---
 <i>По материалам коллекции самодельных вещей Владимира Архипова</i>
 

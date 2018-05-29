@@ -20,13 +20,14 @@ layout: default
      {% for tag in sort_tags %}
        {% assign the_tag =  tag | first %}
          {% assign cat_tag_posts = site.posts | where: "categories", the_cat | where: "tags", the_tag | reverse %}
-           {% if cat_tag_posts.size > 0 %}
+           {% if cat_tag_posts.size > 0 and the_cat != the_tag %}
            <div class="post-meta">{{ the_tag }}</div>
            {% endif %}
          {% for post in  cat_tag_posts%}
          <li>
            <h3>
-             <a class="post-link" href="{{ post.url | relative_url }}">
+
+             <a class="post-link" href="{% if post.link %}{{ post.link }}{% else %}{{ post.url | relative_url }}{% endif %}">
                {{ post.title | escape }}
 
                {% assign post_in_seconds = post.date | date: "%s" %}
