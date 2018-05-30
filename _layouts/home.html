@@ -19,11 +19,12 @@ layout: default
     {% assign sort_tags =  site.tags | sort %}
      {% for tag in sort_tags %}
        {% assign the_tag =  tag | first %}
-         {% assign cat_tag_posts = site.posts | where: "categories", the_cat | where: "tags", the_tag | reverse %}
+         {% assign cat_tag_posts = site.posts | where: "categories", the_cat | where: "tags", the_tag %}
            {% if cat_tag_posts.size > 0 and the_cat != the_tag %}
            <div class="post-meta">{{ the_tag }}</div>
            {% endif %}
-         {% for post in  cat_tag_posts%}
+           {% assign sorted_posts =  cat_tag_posts | sort: 'title' %}
+         {% for post in  sorted_posts %}
          <li>
            <h3>
 
