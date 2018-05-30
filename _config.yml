@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ильяс Фалько
+title: Илья Фальковский
 email: falko@pop-grafika.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Литератор и художник. Лауреат премии Кандинского в номинации «медиа-арт» (2008, в составе группы ПГ). Автор нескольких нон-фикшн книг, посвященных зарождению молодежного антифашистского движения и его жертвам а также книги автобиографической прозы.
+  Литератор и художник.
 baseurl: "falko" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
