@@ -2,7 +2,7 @@
 layout: post
 title:  "Сканер"
 date:   2018-01-01 18:31:15 -0400
-categories: Фантастика
+categories: [1. Фантастика]
 tags: [АНАРХО-БУДДИСТСКАЯ ПОВЕСТЬ]
 permalink: /fantasy/:title.html
 ---

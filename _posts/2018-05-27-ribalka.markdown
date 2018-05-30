@@ -2,7 +2,7 @@
 layout: post
 title: "Рыбалка"
 date: 2018-01-01 22:31:15 +0000
-categories: "Расследования"
+categories: [2. Расследования]
 tags: "АНАРХО-ПЬЕСА"
 permalink: "/rassledovaniya/:title.html"
 ---
