@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "С Вонючкой на БАМе"
-date: 2018-01-01 22:31:15 +0000
+date: 2018-01-10 22:31:15 +0000
+weight: 10
 categories: [2. Расследования]
 tags: "РАССКАЗЫ"
 permalink: "/rasskazi/:title.html"

@@ -4,16 +4,20 @@
      CATS: {{ site.categories | debug }}<br/>
      TAGS: {{ site.tags | debug }}<br/>
 
+    {% assign cat_tag_posts = site.posts | where: "categories", "3. Путешествия" %}
+    TAGS: {{ site.posts | debug }}<br/>
+
+
      {% for cat in site.categories %}
      {% assign the_cat =  cat | first %}
      <b>{{ the_cat }}</b>
       {% for tag in site.tags %}
         {% assign the_tag =  tag | first %}
-          {% assign cat_tag_posts = site.posts | where: "categories", the_cat | where: "tags", the_tag %}
+          {% assign cat_tag_posts = site.posts | where: "categories", the_cat | where: "tags", the_tag | sort: 'weight' %}
             {% if cat_tag_posts.size > 0 %}
               <i>{{ the_tag }}</i>
             {% endif %}
-          {% for post in  cat_tag_posts%}
+          {% for post in cat_tag_posts %}
             • {{ post.title }}
           {% endfor %}
       {% endfor %}

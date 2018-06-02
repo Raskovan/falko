@@ -1,6 +1,7 @@
 ---
 title: "Питекантроп в Екатеринбурге"
-date: 2018-01-01 00:00:00 +0000
+date: 2018-01-09 00:00:00 +0000
+weight: 9
 layout: post
 permalink: "/rasskazi/:title"
 categories: [2. Расследования]

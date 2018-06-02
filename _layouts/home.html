@@ -23,7 +23,7 @@ layout: default
            {% if cat_tag_posts.size > 0 and the_cat != the_tag %}
            <div class="post-meta">{{ the_tag }}</div>
            {% endif %}
-           {% assign sorted_posts =  cat_tag_posts | sort: 'title' %}
+           {% assign sorted_posts =  cat_tag_posts | sort: 'weight' | reverse %}
          {% for post in  sorted_posts %}
          <li>
            <h3>
