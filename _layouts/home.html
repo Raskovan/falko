@@ -10,39 +10,36 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
+    {% assign categories = site.posts | group_by:"category" %}
+      {% for category in site.blog-categories %}
+        {% assign current-category = categories | where:"name", category | first %}
+        {% assign category-blog = current-category.items %}
+        {% assign by_tag =  category-blog | group_by: "tag" %}
 
-    {% assign sort_cats =  site.categories | sort %}
-    {% for cat in sort_cats %}
-    {% assign the_cat =  cat | first %}
-    <ul class="post-list">
-    <h2 class="post-list-heading">{{ the_cat }}</h2>
-    {% assign sort_tags =  site.tags | sort %}
-     {% for tag in sort_tags %}
-       {% assign the_tag =  tag | first %}
-         {% assign cat_tag_posts = site.posts | where: "categories", the_cat | where: "tags", the_tag %}
-           {% if cat_tag_posts.size > 0 and the_cat != the_tag %}
-           <div class="post-meta">{{ the_tag }}</div>
-           {% endif %}
-           {% assign sorted_posts =  cat_tag_posts | sort: 'weight' | reverse %}
-         {% for post in  sorted_posts %}
-         <li>
-           <h3>
-
-             <a class="post-link" href="{% if post.link %}{{ post.link }}{% else %}{{ post.url | relative_url }}{% endif %}">
-               {{ post.title | escape }}
-
-               {% assign post_in_seconds = post.date | date: "%s" %}
-               {% assign today_in_seconds = site.time | date: "%s" %}
-               {% assign past_in_seconds = today_in_seconds | minus: post_in_seconds %}
-               {% if past_in_seconds < 2678400 %}<sup class="post-new">new</sup>{% endif%}
-             </a>
-           </h3>
-         </li>
-         {% endfor %}
-     {% endfor %}
-     </ul>
-    {% endfor %}
-
-  {%- endif -%}
-
+        <ul class="post-list">
+          <h2 class="post-list-heading">{{ category }}</h2>
+            {% for tag in site.blog-tags %}
+            {% assign current-tag = by_tag | where:"name", tag | first %}
+              {% if current-tag and current-tag.name != category %}
+                <div class="post-meta">{{ current-tag.name }}</div>
+              {% endif %}
+              {% for post in current-tag.items %}
+                <li>
+                  <h3>
+                    <a class="post-link" href="{% if post.link %}{{ post.link }}{% else %}{{ post.url | relative_url }}{% endif %}">
+                      {{ post.title | escape }}
+                      {% assign post_in_seconds = post.date | date: "%s" %}
+                      {% assign today_in_seconds = site.time | date: "%s" %}
+                      {% assign past_in_seconds = today_in_seconds | minus: post_in_seconds %}
+                        {% if past_in_seconds < 2678400 %}
+                         <sup class="post-new">new</sup>
+                        {% endif %}
+                    </a>
+                  </h3>
+                </li>
+              {% endfor %}
+            {% endfor %}
+        </ul>
+      {% endfor %}
+  {% endif %}
 </div>

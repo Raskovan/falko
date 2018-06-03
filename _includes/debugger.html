@@ -1,27 +1,37 @@
 <div class="debugger">
   <div class="container text-center">
     <!-- sitedebug -->
-     CATS: {{ site.categories | debug }}<br/>
-     TAGS: {{ site.tags | debug }}<br/>
-
-    {% assign cat_tag_posts = site.posts | where: "categories", "3. Путешествия" %}
-    TAGS: {{ site.posts | debug }}<br/>
 
 
-     {% for cat in site.categories %}
-     {% assign the_cat =  cat | first %}
-     <b>{{ the_cat }}</b>
-      {% for tag in site.tags %}
-        {% assign the_tag =  tag | first %}
-          {% assign cat_tag_posts = site.posts | where: "categories", the_cat | where: "tags", the_tag | sort: 'weight' %}
-            {% if cat_tag_posts.size > 0 %}
-              <i>{{ the_tag }}</i>
-            {% endif %}
-          {% for post in cat_tag_posts %}
-            • {{ post.title }}
+    {% assign categories = site.posts | group_by:"category" %}
+
+    {% for category in site.blog-categories %}
+
+      {% assign current-category = categories | where:"name", category | first %}
+      {% assign category-blog = current-category.items %}
+      {% assign by_tag =  category-blog | group_by: "tag" %}
+
+      <h2>{{ category }}</h2>
+
+      <!-- BY_TAG:{{ by_tag | debug }} -->
+      {% for tag in site.blog-tags %}
+
+        {% assign current-tag = by_tag | where:"name", tag | first %}
+        {% if current-tag %}
+        {{ current-tag.name }}
+        <ul>
+          {% for item in current-tag.items %}
+          <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
           {% endfor %}
+        </ul>
+        {% endif %}
       {% endfor %}
-     {% endfor %}
+    {% endfor %}
+
+
+
+
+
 
 
 

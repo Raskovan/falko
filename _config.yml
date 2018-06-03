@@ -17,7 +17,7 @@ title: Илья Фальковский
 email: falko@pop-grafika.net
 description: >- # this means to ignore newlines until "baseurl:"
   Литератор и художник.
-baseurl: "falko" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
@@ -27,6 +27,34 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+defaults:
+  - { scope: {path: "_posts/fantasy" }, values: {category: "Фантастика" } }
+  - { scope: {path: "_posts/rassledovaniya" }, values: {category: "Расследования" } }
+  - { scope: {path: "_posts/travel" }, values: {category: "Путешествия" } }
+  - { scope: {path: "_posts/rassledovaniya/play" }, values: {tag: "АНАРХО-ПЬЕСА" } }
+  - { scope: {path: "_posts/rassledovaniya/rasskazi" }, values: {tag: "РАССКАЗЫ" } }
+  - { scope: {path: "_posts/rassledovaniya/statii" }, values: {tag: "СТАТЬИ И ИНТЕРВЬЮ" } }
+  - { scope: {path: "_posts/rassledovaniya/artchronika" }, values: {tag: "КОЛОНКА В АРТ-ХРОНИКЕ" } }
+  - { scope: {path: "_posts/rassledovaniya/grani" }, values: {tag: "БЛОГ НА ГРАНЯХ" } }
+  - { scope: {path: "_posts/rassledovaniya/mediaydar" }, values: {tag: "БЛОГ НА МЕДИА-УДАРЕ" } }
+  - { scope: {path: "_posts/fantasy/povest" }, values: {tag: "АНАРХО-БУДДИСТСКАЯ ПОВЕСТЬ" } }
+  - { scope: {path: "_posts/travel/pyteshestviya" }, values: {tag: "Путешествия" } }
+
+blog-categories:
+  - "Фантастика"
+  - "Расследования"
+  - "Путешествия"
+
+blog-tags:
+  - "АНАРХО-ПЬЕСА"
+  - "РАССКАЗЫ"
+  - "СТАТЬИ И ИНТЕРВЬЮ"
+  - "КОЛОНКА В АРТ-ХРОНИКЕ"
+  - "БЛОГ НА ГРАНЯХ"
+  - "БЛОГ НА МЕДИА-УДАРЕ"
+  - "АНАРХО-БУДДИСТСКАЯ ПОВЕСТЬ"
+  - "Путешествия"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
