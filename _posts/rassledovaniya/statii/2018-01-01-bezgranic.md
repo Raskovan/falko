@@ -2,7 +2,7 @@
 layout: post
 title: "Россия и Германия на примере фестиваля 'Берлин-Москва: Мир без границ'"
 date: 2017-01-09 22:31:15 +0000
-weight: 9
+weight: 13
 categories: "Расследования"
 tags: [СТАТЬИ И ИНТЕРВЬЮ]
 permalink: "/rassledovaniya/:title.html"

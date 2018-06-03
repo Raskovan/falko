@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Об Авторе
+title: Биография
 permalink: "/about/"
 ---
 <img src="http://pop-grafika.net/falkov/falk.jpg"/>

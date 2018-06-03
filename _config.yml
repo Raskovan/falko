@@ -17,7 +17,7 @@ title: Илья Фальковский
 email: falko@pop-grafika.net
 description: >- # this means to ignore newlines until "baseurl:"
   Литератор и художник.
-baseurl: "falko" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
@@ -38,7 +38,9 @@ defaults:
   - { scope: {path: "_posts/rassledovaniya/artchronika" }, values: {tag: "КОЛОНКА В АРТ-ХРОНИКЕ" } }
   - { scope: {path: "_posts/rassledovaniya/grani" }, values: {tag: "БЛОГ НА ГРАНЯХ" } }
   - { scope: {path: "_posts/rassledovaniya/mediaydar" }, values: {tag: "БЛОГ НА МЕДИА-УДАРЕ" } }
+  - { scope: {path: "_posts/rassledovaniya/rapopera" }, values: {tag: "РЭП-ОПЕРА" } }
   - { scope: {path: "_posts/fantasy/povest" }, values: {tag: "АНАРХО-БУДДИСТСКАЯ ПОВЕСТЬ" } }
+  - { scope: {path: "_posts/fantasy/utopia" }, values: {tag: "СОЦИАЛЬНАЯ УТОПИЯ" } }
   - { scope: {path: "_posts/travel/pyteshestviya" }, values: {tag: "Путешествия" } }
 
 blog-categories:
@@ -47,6 +49,7 @@ blog-categories:
   - "Путешествия"
 
 blog-tags:
+  - "РЭП-ОПЕРА"
   - "АНАРХО-ПЬЕСА"
   - "РАССКАЗЫ"
   - "СТАТЬИ И ИНТЕРВЬЮ"
@@ -54,6 +57,7 @@ blog-tags:
   - "БЛОГ НА ГРАНЯХ"
   - "БЛОГ НА МЕДИА-УДАРЕ"
   - "АНАРХО-БУДДИСТСКАЯ ПОВЕСТЬ"
+  - "СОЦИАЛЬНАЯ УТОПИЯ"
   - "Путешествия"
 
 # Exclude from processing.

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Странник среди экстремистов"
+title: "Весь Китай – огромная стройплощадка"
 date: 2017-01-16 22:31:15 +0000
-weight: 27
+weight: 31
 categories: "Расследования"
 tags: [СТАТЬИ И ИНТЕРВЬЮ]
-link: https://www.svoboda.org/a/27306105.html
+link: https://www.svoboda.org/a/29138219.html
 ---
