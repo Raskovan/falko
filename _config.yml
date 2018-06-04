@@ -18,12 +18,9 @@ email: falko@pop-grafika.net
 description: >- # this means to ignore newlines until "baseurl:"
   Литератор и художник.
   
-  {% if url = "pop-grafika.net" %}
-    {{baseurl: "falkov"}}
-    {% else %}
-    {{baseurl: ""}} # the subpath of your site, e.g. /blog
-  {% endif %}
-
+baseurl: 
+ - ""
+ - "falkov" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
