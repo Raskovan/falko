@@ -6,9 +6,9 @@ fields:
   label: Category
   type: tag_list
   hidden: false
-  default: "Расследования"
+  default: Расследования
 - name: tag
   label: Tag
   type: tag_list
   hidden: false
-  default: "БЛОГ НА МЕДИА-УДАРЕ"
+  default: БЛОГ НА МЕДИА-УДАРЕ
