@@ -3,7 +3,7 @@ title: "Питекантроп в Екатеринбурге"
 date: 2018-01-09 00:00:00 +0000
 weight: 9
 layout: post
-permalink: "/rasskazi/:title"
+permalink: "/rasskazi/:title.html"
 categories: "Расследования"
 tags: "РАССКАЗЫ"
 ---

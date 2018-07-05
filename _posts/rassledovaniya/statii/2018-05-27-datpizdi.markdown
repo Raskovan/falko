@@ -4,7 +4,8 @@ title: "Дать пизды"
 date: 2017-01-12 22:31:15 +0000
 weight: 19
 categories: "Расследования"
-tags: [СТАТЬИ И ИНТЕРВЬЮ]
+tags:
+- "СТАТЬИ И ИНТЕРВЬЮ"
 permalink: "/rassledovaniya/:title.html"
 ---
 <img src="http://pop-grafika.net/otstoi/ilia_ninja.gif">

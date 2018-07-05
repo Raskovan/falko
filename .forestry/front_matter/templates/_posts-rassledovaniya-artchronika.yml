@@ -1,0 +1,14 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: category
+  label: Category
+  type: tag_list
+  hidden: false
+  default: Расследования
+- name: tag
+  label: Tag
+  type: tag_list
+  hidden: false
+  default: КОЛОНКА В АРТ-ХРОНИКЕ
