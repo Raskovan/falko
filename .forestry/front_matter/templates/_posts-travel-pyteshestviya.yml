@@ -1,7 +1,6 @@
 ---
 label: _posts/travel/pyteshestviya
 hide_body: false
-is_partial: false
 fields:
 - name: category
   label: Category
