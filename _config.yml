@@ -17,7 +17,7 @@ title: Илья Фальковский
 email: falko@pop-grafika.net
 description: >- # this means to ignore newlines until "baseurl:"
   Литератор и художник.
-baseurl: "falkov" # the subpath of your site, e.g. /blog
+baseurl: "/falkov" # the subpath of your site, e.g. /blog
 url: "https://pop-grafika.net" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
