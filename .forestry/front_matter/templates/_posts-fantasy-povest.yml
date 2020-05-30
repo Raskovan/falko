@@ -1,7 +1,6 @@
 ---
 label: _posts/fantasy/povest
 hide_body: false
-is_partial: false
 fields:
 - name: category
   label: Category
