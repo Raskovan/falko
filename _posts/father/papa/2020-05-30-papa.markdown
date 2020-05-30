@@ -4,7 +4,7 @@ title: Папа
 date: 2020-05-30T22:31:15.000+00:00
 categories: 'Папа'
 tags: 'Папа'
-permalink: '/papa/:title.html'
+permalink: '/father/:title.html'
 ---
 
 **9.2.7. Л.А. Фальковский: Заметки об Институте Ландау 31-го ученика Ландау**
