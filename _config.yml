@@ -32,7 +32,7 @@ defaults:
   - { scope: {path: "_posts/fantasy" }, values: {category: "Фантастика" } }
   - { scope: {path: "_posts/rassledovaniya" }, values: {category: "Расследования" } }
   - { scope: {path: "_posts/travel" }, values: {category: "Путешествия" } }
-  - { scope: {path: "_posts/papa" }, values: {category: "Папа" } }
+  - { scope: {path: "_posts/father" }, values: {category: "Папа" } }
   - { scope: {path: "_posts/rassledovaniya/play" }, values: {tag: "АНАРХО-ПЬЕСА" } }
   - { scope: {path: "_posts/rassledovaniya/rasskazi" }, values: {tag: "РАССКАЗЫ" } }
   - { scope: {path: "_posts/rassledovaniya/statii" }, values: {tag: "СТАТЬИ И ИНТЕРВЬЮ" } }
@@ -43,6 +43,7 @@ defaults:
   - { scope: {path: "_posts/fantasy/povest" }, values: {tag: "АНАРХО-БУДДИСТСКАЯ ПОВЕСТЬ" } }
   - { scope: {path: "_posts/fantasy/utopia" }, values: {tag: "СОЦИАЛЬНАЯ УТОПИЯ" } }
   - { scope: {path: "_posts/travel/pyteshestviya" }, values: {tag: "Путешествия" } }
+  - { scope: {path: "_posts/father/papa" }, values: {tag: "Папа" } }
 
 blog-categories:
   - "Фантастика"
@@ -61,6 +62,7 @@ blog-tags:
   - "АНАРХО-БУДДИСТСКАЯ ПОВЕСТЬ"
   - "СОЦИАЛЬНАЯ УТОПИЯ"
   - "Путешествия"
+  - "Папа"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
