@@ -24,6 +24,13 @@
   }
 }
 
+.book-cover {
+  border: 1px solid #424242;
+  float: left;
+  margin-left: 0;
+  margin-right: 20px;
+}
+
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
