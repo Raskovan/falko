@@ -29,6 +29,7 @@ plugins:
   - jekyll-feed
 
 defaults:
+  - { scope: {path: "_posts/books" }, values: {category: "Книги" } }
   - { scope: {path: "_posts/fantasy" }, values: {category: "Фантастика" } }
   - { scope: {path: "_posts/rassledovaniya" }, values: {category: "Расследования" } }
   - { scope: {path: "_posts/travel" }, values: {category: "Путешествия" } }
@@ -44,8 +45,10 @@ defaults:
   - { scope: {path: "_posts/fantasy/utopia" }, values: {tag: "СОЦИАЛЬНАЯ УТОПИЯ" } }
   - { scope: {path: "_posts/travel/pyteshestviya" }, values: {tag: "Путешествия" } }
   - { scope: {path: "_posts/father/papa" }, values: {tag: "Отец" } }
+  - { scope: {path: "_posts/books/knigi" }, values: {tag: "Книги" } }
 
 blog-categories:
+  - "Книги"
   - "Фантастика"
   - "Расследования"
   - "Путешествия"
@@ -63,6 +66,7 @@ blog-tags:
   - "СОЦИАЛЬНАЯ УТОПИЯ"
   - "Путешествия"
   - "Отец"
+  - "Книги"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
