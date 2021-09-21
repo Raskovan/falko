@@ -17,8 +17,8 @@ title: Илья Фальковский
 email: falko@pop-grafika.net
 description: >- # this means to ignore newlines until "baseurl:"
   Литератор и художник.
-baseurl: "/falkov" # the subpath of your site, e.g. /blog
-url: "https://pop-grafika.net" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '/falkov' # the subpath of your site, e.g. /blog
+url: 'https://pop-grafika.net' # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 google_analytics: UA-102594460-1
@@ -27,47 +27,80 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 defaults:
-  - { scope: {path: "_posts/books" }, values: {category: "Книги" } }
-  - { scope: {path: "_posts/fantasy" }, values: {category: "Фантастика" } }
-  - { scope: {path: "_posts/rassledovaniya" }, values: {category: "Расследования" } }
-  - { scope: {path: "_posts/travel" }, values: {category: "Путешествия" } }
-  - { scope: {path: "_posts/father" }, values: {category: "Отец" } }
-  - { scope: {path: "_posts/rassledovaniya/play" }, values: {tag: "АНАРХО-ПЬЕСА" } }
-  - { scope: {path: "_posts/rassledovaniya/rasskazi" }, values: {tag: "РАССКАЗЫ" } }
-  - { scope: {path: "_posts/rassledovaniya/statii" }, values: {tag: "СТАТЬИ И ИНТЕРВЬЮ" } }
-  - { scope: {path: "_posts/rassledovaniya/artchronika" }, values: {tag: "КОЛОНКА В АРТ-ХРОНИКЕ" } }
-  - { scope: {path: "_posts/rassledovaniya/grani" }, values: {tag: "БЛОГ НА ГРАНЯХ" } }
-  - { scope: {path: "_posts/rassledovaniya/mediaydar" }, values: {tag: "БЛОГ НА МЕДИА-УДАРЕ" } }
-  - { scope: {path: "_posts/rassledovaniya/rapopera" }, values: {tag: "РЭП-ОПЕРА" } }
-  - { scope: {path: "_posts/fantasy/povest" }, values: {tag: "АНАРХО-БУДДИСТСКАЯ ПОВЕСТЬ" } }
-  - { scope: {path: "_posts/fantasy/utopia" }, values: {tag: "СОЦИАЛЬНАЯ УТОПИЯ" } }
-  - { scope: {path: "_posts/travel/pyteshestviya" }, values: {tag: "Путешествия" } }
-  - { scope: {path: "_posts/father/papa" }, values: {tag: "Отец" } }
-  - { scope: {path: "_posts/books/knigi" }, values: {tag: "Книги" } }
+  - { scope: { path: '_posts/books' }, values: { category: 'Книги' } }
+  - { scope: { path: '_posts/fantasy' }, values: { category: 'Фантастика' } }
+  - {
+      scope: { path: '_posts/rassledovaniya' },
+      values: { category: 'Расследования' }
+    }
+  - { scope: { path: '_posts/travel' }, values: { category: 'Путешествия' } }
+  - { scope: { path: '_posts/father' }, values: { category: 'Отец' } }
+  - {
+      scope: { path: '_posts/rassledovaniya/play' },
+      values: { tag: 'АНАРХО-ПЬЕСА' }
+    }
+  - {
+      scope: { path: '_posts/rassledovaniya/rasskazi' },
+      values: { tag: 'РАССКАЗЫ' }
+    }
+  - {
+      scope: { path: '_posts/rassledovaniya/statii' },
+      values: { tag: 'СТАТЬИ И ИНТЕРВЬЮ' }
+    }
+  - {
+      scope: { path: '_posts/rassledovaniya/artchronika' },
+      values: { tag: 'КОЛОНКА В АРТ-ХРОНИКЕ' }
+    }
+  - {
+      scope: { path: '_posts/rassledovaniya/grani' },
+      values: { tag: 'БЛОГ НА ГРАНЯХ' }
+    }
+  - {
+      scope: { path: '_posts/rassledovaniya/mediaydar' },
+      values: { tag: 'БЛОГ НА МЕДИА-УДАРЕ' }
+    }
+  - {
+      scope: { path: '_posts/rassledovaniya/rapopera' },
+      values: { tag: 'РЭП-ОПЕРА' }
+    }
+  - {
+      scope: { path: '_posts/fantasy/povest' },
+      values: { tag: 'АНАРХО-БУДДИСТСКАЯ ПОВЕСТЬ' }
+    }
+  - {
+      scope: { path: '_posts/fantasy/utopia' },
+      values: { tag: 'СОЦИАЛЬНАЯ УТОПИЯ' }
+    }
+  - {
+      scope: { path: '_posts/travel/pyteshestviya' },
+      values: { tag: 'Путешествия' }
+    }
+  - { scope: { path: '_posts/father/papa' }, values: { tag: 'Отец' } }
+  - { scope: { path: '_posts/books/knigi' }, values: { tag: 'Книги' } }
 
 blog-categories:
-  - "Книги"
-  - "Фантастика"
-  - "Расследования"
-  - "Путешествия"
-  - "Отец"
+  - 'Книги'
+  - 'Фантастика'
+  - 'Расследования'
+  - 'Путешествия'
+  - 'Отец'
 
 blog-tags:
-  - "РЭП-ОПЕРА"
-  - "АНАРХО-ПЬЕСА"
-  - "РАССКАЗЫ"
-  - "СТАТЬИ И ИНТЕРВЬЮ"
-  - "КОЛОНКА В АРТ-ХРОНИКЕ"
-  - "БЛОГ НА ГРАНЯХ"
-  - "БЛОГ НА МЕДИА-УДАРЕ"
-  - "АНАРХО-БУДДИСТСКАЯ ПОВЕСТЬ"
-  - "СОЦИАЛЬНАЯ УТОПИЯ"
-  - "Путешествия"
-  - "Отец"
-  - "Книги"
-
+  - 'РЭП-ОПЕРА'
+  - 'АНАРХО-ПЬЕСА'
+  - 'РАССКАЗЫ'
+  - 'СТАТЬИ И ИНТЕРВЬЮ'
+  - 'КОЛОНКА В АРТ-ХРОНИКЕ'
+  - 'БЛОГ НА ГРАНЯХ'
+  - 'БЛОГ НА МЕДИА-УДАРЕ'
+  - 'АНАРХО-БУДДИСТСКАЯ ПОВЕСТЬ'
+  - 'СОЦИАЛЬНАЯ УТОПИЯ'
+  - 'Путешествия'
+  - 'Отец'
+  - 'Книги'
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
