@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Весь Китай – огромная стройплощадка-(copy)
-date: 2018-06-03T21:31:15.000+00:00
-weight: "31"
+title: 'Туманность ПГ '
+date: 2021-09-21 16:00:00 +0000
+weight: "32"
 categories: Расследования
 tags:
 - СТАТЬИ И ИНТЕРВЬЮ
-link: https://www.svoboda.org/a/29138219.html
+link: https://www.colta.ru/articles/music_modern/21789-tumannost-pg
 
 ---
