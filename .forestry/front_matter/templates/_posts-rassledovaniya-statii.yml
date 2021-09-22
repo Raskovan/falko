@@ -12,5 +12,3 @@ fields:
   type: tag_list
   hidden: false
   default: СТАТЬИ И ИНТЕРВЬЮ
-pages:
-- _posts/rassledovaniya/statii/2021-09-22-novii-mir.md
