@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Ужасный новый мир-(copy)
+title: Туманность ПГ
 date: 2021-09-21T16:00:00.000+00:00
-weight: "33"
+weight: "32"
 categories: Расследования
 tags:
 - СТАТЬИ И ИНТЕРВЬЮ
-link: https://www.svoboda.org/a/30485914.html
+link: https://www.colta.ru/articles/music_modern/21789-tumannost-pg
 
 ---
