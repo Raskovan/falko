@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Рецензии
-permalink: "/reviews/"
-
+permalink: '/reviews/'
 ---
-<img src="https://pop-grafika.net/old_falkov/reka_cover.jpg" width="25%" class="book-cover"/>
+
+<img src="https://pop-grafika.net/old_falkov/reka_cover.jpg" width="100%" class="book-cover"/>
 
 **Рецензии на книгу "Жемчужная река":**
 
