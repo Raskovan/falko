@@ -42,4 +42,4 @@ fields:
   hidden: false
   default: "/rassledovaniya/:title.html"
 pages:
-- _posts/rassledovaniya/statii/2021-10-04-соевая-колбаса.md
+- _posts/rassledovaniya/statii/soevaya-kolbasa.md
