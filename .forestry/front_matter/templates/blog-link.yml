@@ -1,5 +1,5 @@
 ---
-label: Post
+label: Post with link
 hide_body: false
 fields:
 - name: layout
