@@ -3,7 +3,7 @@ layout: post
 weight: 10
 title: Соевая колбаса
 date: 2021-10-04 04:00:00 +0000
-categories: []
+categories: Расследования
 tags:
 - СТАТЬИ И ИНТЕРВЬЮ
 permalink: "/rassledovaniya/:title.html"
