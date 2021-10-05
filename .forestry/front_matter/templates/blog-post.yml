@@ -8,9 +8,16 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: weight
+- name: weight
+  type: number
   label: weight
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - type: datetime
   name: date
   label: date
