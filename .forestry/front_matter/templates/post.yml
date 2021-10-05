@@ -2,66 +2,66 @@
 label: Post
 hide_body: false
 fields:
-  - name: layout
-    label: Layout
-    type: text
-    hidden: false
-    default: post
-  - name: title
-    label: Title
-    type: text
-    hidden: false
-    default: ''
-  - name: date
-    label: Date
-    type: datetime
-    hidden: false
-    default: ''
-  - name: weight
-    type: number
-    label: weight
-    description: ''
-    default: 0
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: post
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: weight
+  type: number
+  label: weight
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: categories
+  type: select
+  default: []
+  config:
     required: true
-    config:
-      min:
-      max:
-      step:
-  - name: categories
-    type: select
-    default: []
-    config:
-      required: true
-      options:
-        - Фантастика
-        - Книги
-        - Расследования
-        - Путешествия
-        - Отец
-      source:
-        type: simple
-        section:
-        file:
-        path:
-    label: Categories
-  - name: tags
-    type: tag_list
-    default: []
-    label: Tags
-  - name: permalink
-    type: select
-    default: []
-    config:
-      required: true
-      options:
-        - /fantasy/:title.html
-        - /books/:title.html
-        - /rassledovaniya/:title.html
-        - /travel/:title.html
-        - /father/:title.html
-      source:
-        type: simple
-        section:
-        file:
-        path:
-    label: Permalink
+    options:
+    - Фантастика
+    - Книги
+    - Расследования
+    - Путешествия
+    - Отец
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Categories
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: permalink
+  type: select
+  default: []
+  config:
+    required: true
+    options:
+    - "/fantasy/:title.html"
+    - "/books/:title.html"
+    - "/rassledovaniya/:title.html"
+    - "/travel/:title.html"
+    - "/father/:title.html"
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Permalink
