@@ -2,54 +2,54 @@
 label: Post
 hide_body: false
 fields:
-  - name: layout
-    label: Layout
-    type: text
-    hidden: false
-    default: post
-  - name: title
-    label: Title
-    type: text
-    hidden: false
-    default: ''
-  - name: date
-    label: Date
-    type: datetime
-    hidden: false
-    default: ''
-  - name: weight
-    type: number
-    label: weight
-    description: ''
-    default: 0
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: post
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: weight
+  type: number
+  label: weight
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: categories
+  type: select
+  default: []
+  config:
     required: true
-    config:
-      min:
-      max:
-      step:
-  - name: categories
-    type: select
-    default: []
-    config:
-      required: true
-      options:
-        - Фантастика
-        - Книги
-        - Расследования
-        - Путешествия
-        - Отец
-      source:
-        type: simple
-        section:
-        file:
-        path:
-    label: Categories
-  - name: tags
-    type: tag_list
-    default: []
-    label: Tags
-  - name: link
-    label: Link
-    type: text
-    hidden: false
-    default: ''
+    options:
+    - Фантастика
+    - Книги
+    - Расследования
+    - Путешествия
+    - Отец
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Categories
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: link
+  label: Link
+  type: text
+  hidden: false
+  default: ''
