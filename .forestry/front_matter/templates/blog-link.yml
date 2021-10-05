@@ -1,5 +1,5 @@
 ---
-label: Post
+label: Post with link
 hide_body: false
 fields:
   - name: layout
@@ -32,8 +32,8 @@ fields:
     type: tag_list
     hidden: false
     default: ''
-  - name: permalink
-    label: Permalink
+  - name: link
+    label: Link
     type: text
     hidden: false
     default: ''
