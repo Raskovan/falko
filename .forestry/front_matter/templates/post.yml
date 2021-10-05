@@ -43,4 +43,4 @@ fields:
   default: ''
   description: "/rassledovaniya/:title.html"
 pages:
-- _posts/rassledovaniya/statii/соевая-колбаса.md
+- _posts/rassledovaniya/statii/2021-10-04-соевая-колбаса.md
