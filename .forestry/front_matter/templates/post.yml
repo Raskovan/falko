@@ -28,10 +28,9 @@ fields:
     max: 
     step: 
 - name: categories
-  label: Categories
   type: tag_list
-  hidden: false
-  default: ''
+  default: []
+  label: Categories
 - name: tags
   type: tag_list
   default: []
