@@ -40,7 +40,6 @@ fields:
   label: Permalink
   type: text
   hidden: false
-  default: ''
-  description: "/rassledovaniya/:title.html"
+  default: "/rassledovaniya/:title.html"
 pages:
 - _posts/rassledovaniya/statii/2021-10-04-соевая-колбаса.md
