@@ -32,7 +32,12 @@ fields:
   default: []
   config:
     required: false
-    options: []
+    options:
+    - 'Фантастика '
+    - Книги
+    - Расследования
+    - Путешествия
+    - Отец
     source:
       type: simple
       section: 
