@@ -33,14 +33,14 @@ fields:
   hidden: false
   default: ''
 - name: tags
-  type: text
-  config:
-    required: false
+  type: tag_list
+  default: []
   label: Tags
 - name: permalink
   label: Permalink
   type: text
   hidden: false
   default: ''
+  description: "/rassledovaniya/:title.html"
 pages:
 - _posts/rassledovaniya/statii/соевая-колбаса.md
