@@ -28,8 +28,16 @@ fields:
     max: 
     step: 
 - name: categories
-  type: tag_list
+  type: select
   default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
   label: Categories
 - name: tags
   type: tag_list
