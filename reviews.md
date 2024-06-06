@@ -27,4 +27,6 @@ permalink: /reviews/
 
 [Рецензия в "Горьком"](https://gorky.media/reviews/ujgurskoe-natsionalnoe-edinstvo/)
 
+[Отрывок в "Дискурсе"](https://discours.io/articles/social/terror-against-uyghurs)
+
 [&nbsp;]()
