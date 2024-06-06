@@ -23,6 +23,8 @@ permalink: /reviews/
 
 &nbsp;
 
-<br>![](https://pop-grafika.net/dropbox/shahidi-oblozhka1.jpg){: .book-cover width="100%"}**Книга "Бурхан Шахиди, или Синьцзян 50 лет спустя": рецензии, интервью, отрывки**
+<br>![](https://pop-grafika.net/dropbox/shahidi-oblozhka1.jpg){: .book-cover width="100%"}**Книга "Бурхан Шахиди, или Синьцзян 50 лет спустя": рецензии, интервью, отрывки:**
 
-&nbsp;
+[Рецензия в "Горьком"](https://gorky.media/reviews/ujgurskoe-natsionalnoe-edinstvo/)
+
+[&nbsp;]()
