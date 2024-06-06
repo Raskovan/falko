@@ -25,6 +25,10 @@ permalink: /reviews/
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
 ![](https://pop-grafika.net/dropbox/shahidi-oblozhka1.jpg){: .book-cover width="100%"}**Книга "Бурхан Шахиди, или Синьцзян 50 лет спустя": рецензии, интервью, отрывки**
 
 &nbsp;
