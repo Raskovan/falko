@@ -2,8 +2,8 @@
 title: Блокпост
 date: 2018-03-05 01:00:00 +0000
 layout: post
-categories: Расследования
-tags: РЭП-ОПЕРА
+categories: [Расследования]
+tags: [РЭП-ОПЕРА]
 permalink: "/rassledovaniya/:title.html"
 ---
 Рэп-пьеса в трех актах
