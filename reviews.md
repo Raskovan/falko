@@ -35,6 +35,8 @@ permalink: /reviews/
 
 [Отрывок в "Ноже"](https://knf.md/tg/club/aztekin/)
 
+[Отрывок в "Иностранной литературе"](https://magazines.gorky.media/inostran/2022/7/po-sledam-burhana-shahidi-ili-sinczzyan-50-let-spustya.html)
+
 [Отрывок в "Дискурсе"](https://discours.io/articles/social/terror-against-uyghurs)
 
 [Отрывок в "бармалеях/партизанах"](https://telegra.ph/Otryvok-iz-knigi-Ili-Falkovskogo-Po-sledam-Burhana-SHahidi-12-15)
