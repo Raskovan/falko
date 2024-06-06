@@ -27,6 +27,18 @@ permalink: /reviews/
 
 [Рецензия в "Горьком"](https://gorky.media/reviews/ujgurskoe-natsionalnoe-edinstvo/)
 
+[Статья в "Доксе"](https://doxa.team/articles/uyghur-question)
+
+[Интервью в "Сибирь.Реалиях"](https://www.sibreal.org/a/neobyazatelno-vseh-unichtozhat-kogda-mozhno-vseh-unifitsirovat-kak-v-kitae-postroili-totalitarizm-2-0-/32198628.html)
+
+[Интервью в "Ноже"](https://knf.md/tg/muslim-china/)
+
+[Отрывок в "Ноже"](https://knf.md/tg/club/aztekin/)
+
 [Отрывок в "Дискурсе"](https://discours.io/articles/social/terror-against-uyghurs)
+
+[Отрывок в "бармалеях/партизанах"](https://telegra.ph/Otryvok-iz-knigi-Ili-Falkovskogo-Po-sledam-Burhana-SHahidi-12-15)
+
+&nbsp;
 
 [&nbsp;]()
