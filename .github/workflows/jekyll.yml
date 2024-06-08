@@ -3,8 +3,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll site to Pages
+name: Deploy Jekyll site to PG
 
 on:
   # Runs on pushes targeting the default branch
@@ -39,26 +38,21 @@ jobs:
           ruby-version: '2.6' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
-      # - name: Setup Pages
-      #   id: pages
-      #   uses: actions/configure-pages@v5
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build
-        # env:
-        #   JEKYLL_ENV: production
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
       - name: FTP Deployment
-  # You may pin to the exact commit or the version.
-  # uses: airvzxf/ftp-deployment-action@5483542d9d0055601ff0bf09c1e552f3a95c9ff8
+      # You may pin to the exact commit or the version.
+      # uses: airvzxf/ftp-deployment-action@5483542d9d0055601ff0bf09c1e552f3a95c9ff8
         uses: airvzxf/ftp-deployment-action@latest
         with:
           # FTP Server.
           server: "pop-grafika.net"
           # FTP User.
-          user: "popgrafi"
+          user: ${{ secrets.FTP_USER }}
           # FTP Password.
           password: ${{ secrets.FTP_PASSWORD }}
           # Local directory.
@@ -67,36 +61,3 @@ jobs:
           remote_dir: "/public_html/falkov"
           # Delete all the files inside of the remote directory.
           delete: true
-          # Times that the lftp will be executed if an error occurred.
-          # max_retries: # optional, default is 10
-          # # Do not create symbolic links.
-          # no_symlinks: # optional, default is true
-          # # FTP - Allow SSL encryption.
-          # ftp_ssl_allow: # optional, default is false
-          # # FTP - FEAT: Determining what extended features the FTP server supports.
-          # ftp_use_feat: # optional, default is false
-          # # FTP - Delay in seconds between NOOP commands when downloading tail of a file.
-          # ftp_nop_interval: # optional, default is 2
-          # # NET - Maximum number of operation without success. 0 unlimited. 1 no retries.
-          # net_max_retries: # optional, default is 1
-          # # NET - Ignore hard errors. When reply 5xx errors or there is too many users.
-          # net_persist_retries: # optional, default is 5
-          # # NET - Sets the network protocol timeout.
-          # net_timeout: # optional, default is 15s
-          # # DNS - 0 no limit trying to lookup an address otherwise try only this number of times.
-          # dns_max_retries: # optional, default is 8
-          # # DNS - Time for DNS queries. Set to "never" to disable.
-          # dns_fatal_timeout: # optional, default is 10s
-          
-          
-  # Deployment job
-  # deploy:
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
-  #   runs-on: ubuntu-latest
-  #   needs: build
-  #   steps:
-  #     - name: Deploy to GitHub Pages
-  #       id: deployment
-  #       uses: actions/deploy-pages@v4
