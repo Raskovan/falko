@@ -21,7 +21,7 @@ layout: default
                 <div class="post-meta">{{ current-tag.name }}</div>
               {% endif %}
               {% if current-tag %}
-              {% assign sorted-posts = current-tag.items | sort: "weight" | reverse %}
+              {% assign sorted-posts = current-tag.items | sort: "weight" %}
               {% for post in sorted-posts %}
                 <li>
                   <h3>
