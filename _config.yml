@@ -35,6 +35,7 @@ defaults:
   - { scope: { path: "_posts/rassledovaniya" }, values: { category: "Расследования" } }
   - { scope: { path: "_posts/travel" }, values: { category: "Путешествия" } }
   - { scope: { path: "_posts/father" }, values: { category: "Отец" } }
+  - { scope: { path: "_posts/ancestors" }, values: { category: "Предки" } }
   - { scope: { path: "_posts/rassledovaniya/play" }, values: { tag: "АНАРХО-ПЬЕСА" } }
   - { scope: { path: "_posts/rassledovaniya/rasskazi" }, values: { tag: "РАССКАЗЫ" } }
   - { scope: { path: "_posts/rassledovaniya/statii" }, values: { tag: "СТАТЬИ И ИНТЕРВЬЮ" } }
@@ -55,6 +56,7 @@ blog-categories:
   - "Расследования"
   - "Путешествия"
   - "Отец"
+  - "Предки"
 
 blog-tags:
   - "РЭП-ОПЕРА"
@@ -70,6 +72,7 @@ blog-tags:
   - "Отец"
   - "Книги"
   - "КИТАЙСКИЕ ПИСАТЕЛИ"
+  - "Предки"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
