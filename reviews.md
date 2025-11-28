@@ -31,9 +31,9 @@ permalink: /reviews/
 
 [Интервью в “Сибирь.Реалиях”](https://www.sibreal.org/a/neobyazatelno-vseh-unichtozhat-kogda-mozhno-vseh-unifitsirovat-kak-v-kitae-postroili-totalitarizm-2-0-/32198628.html)
 
-[Интервью в “Ноже”](https://knf.md/tg/muslim-china/)
+[Интервью в “Ноже”](https://knife.media/tg/muslim-china/)
 
-[Отрывок в “Ноже”](https://knf.md/tg/club/aztekin/)
+[Отрывок в “Ноже”](https://knife.media/club/aztekin/)
 
 [Отрывок в “Иностранной литературе”](https://magazines.gorky.media/inostran/2022/7/po-sledam-burhana-shahidi-ili-sinczzyan-50-let-spustya.html)
 
