@@ -23,6 +23,10 @@ permalink: /reviews/
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
 ![](https://pop-grafika.net/dropbox/shahidi-oblozhka1.jpg){: .book-cover width="100%"}**Книга “Бурхан Шахиди, или Синьцзян 50 лет спустя”: рецензии, интервью, отрывки:**
 
 [Рецензия в “Горьком”](https://gorky.media/reviews/ujgurskoe-natsionalnoe-edinstvo/)
@@ -40,6 +44,10 @@ permalink: /reviews/
 [Отрывок в “Дискурсе”](https://discours.io/articles/social/terror-against-uyghurs)
 
 [Отрывок в “бармалеях/партизанах”](https://telegra.ph/Otryvok-iz-knigi-Ili-Falkovskogo-Po-sledam-Burhana-SHahidi-12-15)
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
