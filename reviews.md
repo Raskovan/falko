@@ -60,3 +60,11 @@ permalink: /reviews/
 &nbsp;
 
 ![](https://pop-grafika.net/dropbox/cover_parenago.jpeg){: .book-cover width="100%"}**Книга “Уход Паренаго, или равнодушие национализма. Россия-Китай, XIX-XXI”: рецензии, интервью, отрывки:**
+
+[Рецензия в "Горьком"](https://gorky.media/reviews/pervaya-v-turtsii-zhenshchina-pilot-istrebitelya)
+
+[Интервью на "Ватникстане"](https://vatnikstan.ru/interview/falkovskii-parenago/)
+
+[Отрывок в "Напильнике"](https://telegra.ph/Polety-ihehtuanej-i-magiya-znakov-fragment-iz-knigi-Ili-Falkovskogo-Uhod-Parenago-ili-ravnodushie-nacionalizma-Rossiya---Kitaj-X-08-19)
+
+[Отрывок в “бармалеях/партизанах”](https://telegra.ph/Polety-ihehtuanej-i-magiya-znakov--fragment-iz-knigi-Ili-Falkovskogo-Uhod-Parenago-ili-ravnodushie-nacionalizma-Rossiya---Kitaj--08-21)
