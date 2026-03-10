@@ -65,8 +65,10 @@ permalink: /reviews/
 
 [Интервью на “Ватникстане”](https://vatnikstan.ru/interview/falkovskii-parenago/)
 
-[Рецензия в "Дегусте"](https://degysta.ru/retsenziya/aleksandr-chantsev-kovid-kgb-i-krematorii-v-kitae/)
+[Рецензия в “Дегусте”](https://degysta.ru/retsenziya/aleksandr-chantsev-kovid-kgb-i-krematorii-v-kitae/)
 
 [Отрывок в “Напильнике”](https://telegra.ph/Polety-ihehtuanej-i-magiya-znakov-fragment-iz-knigi-Ili-Falkovskogo-Uhod-Parenago-ili-ravnodushie-nacionalizma-Rossiya---Kitaj-X-08-19)
 
 [Отрывок в “бармалеях/партизанах”](https://telegra.ph/Polety-ihehtuanej-i-magiya-znakov--fragment-iz-knigi-Ili-Falkovskogo-Uhod-Parenago-ili-ravnodushie-nacionalizma-Rossiya---Kitaj--08-21)
+
+[Отрывок в "Дискурсе"](https://discours.io/expo/literature/essay/esperanto-military)
