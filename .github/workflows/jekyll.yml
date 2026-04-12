@@ -50,7 +50,7 @@ jobs:
         uses: airvzxf/ftp-deployment-action@latest
         with:
           # FTP Server.
-          server: "pop-grafika.net"
+          server: "82.163.176.236"
           # FTP User.
           user: ${{ secrets.FTP_USER }}
           # FTP Password.
