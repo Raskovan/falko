@@ -63,6 +63,5 @@ jobs:
           delete: true
           ftp_ssl_allow: false
           ftp_passive_mode: true
-          mirror_verbose: 3
           max_retries: 2
           net_timeout: 30s
