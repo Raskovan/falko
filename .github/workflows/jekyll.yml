@@ -50,7 +50,7 @@ jobs:
         uses: airvzxf/ftp-deployment-action@latest
         with:
           # FTP Server.
-          server: "82.163.176.236"
+          server: "pop-grafika.net"
           # FTP User.
           user: ${{ secrets.FTP_USER }}
           # FTP Password.
@@ -58,6 +58,11 @@ jobs:
           # Local directory.
           local_dir: "_site"
           # Remote directory.
-          remote_dir: "/public_html/falkov"
+          remote_dir: "public_html/falkov"
           # Delete all the files inside of the remote directory.
           delete: true
+          ftp_ssl_allow: false
+          ftp_passive_mode: true
+          mirror_verbose: 3
+          max_retries: 2
+          net_timeout: 30s
